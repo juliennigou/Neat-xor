@@ -3,7 +3,7 @@
 Implementation-ready scaffolding for NeuroEvolution of Augmenting Topologies (NEAT) applied to the classic XOR benchmark. The repository provides a clean separation between core genetics, evolutionary operators, IO tooling, and several visualization entry points—including a live 3-panel dashboard to watch species and network structure evolve generation after generation.
 
 > **Heads up:** a training GIF will live here once recorded.  
-> `![Live training demo](docs/assets/neat-live-training.gif)`
+![Live training demo](docs/assets/neat-live-training.gif)
 
 ## Highlights
 - **Typed NEAT primitives** — genomes, innovation tracking, feed-forward execution, and serialization live under `src/core`.
