@@ -1,0 +1,30 @@
+seed: 42
+
+population: 150
+
+elitism_per_species: 1
+
+activation: sigmoid
+
+mutation:
+  p_mutate_weight: 0.8
+  p_reset_weight: 0.1
+  weight_sigma: 0.5
+  p_add_conn: 0.05
+  p_add_node: 0.03
+
+speciation:
+  c1: 1.0
+  c2: 1.0
+  c3: 0.4
+  delta_threshold: 3.0
+  target_species: 3
+  adjust_every: 10
+
+limits:
+  max_generations: 300
+  stagnation_patience: 20
+
+xor:
+  threshold_accuracy: 0.5
+  success_mse: 0.01
